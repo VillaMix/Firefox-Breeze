@@ -1,0 +1,66 @@
+#back-button {
+list-style-image: url("./icons/go-previous.svg") !important;
+}
+
+#forward-button {
+list-style-image: url("./icons/go-next.svg") !important;
+}
+
+
+#reload-button .toolbarbutton-icon,
+#context-reload .menu-iconic-icon {
+list-style-image: url("./icons/view-refresh.svg") !important;
+}
+
+#nav-bar #reload-button .toolbarbutton-icon {
+animation: none !important;
+list-style-image: url("./icons/view-refresh.svg") !important;
+}
+
+#stop-reload-button .toolbarbutton-animatable-image{
+animation-duration: 0s !important;
+}
+
+
+
+#stop-button .toolbarbutton-icon {
+list-style-image: url("./icons/dialog-cancel.svg") !important;
+}
+#nav-bar #stop-button .toolbarbutton-icon {
+list-style-image: url("./icons/dialog-cancel.svg") !important;
+}
+
+
+#home-button {
+list-style-image: url("./icons/go-home.svg") !important;
+}
+
+#nav-bar-overflow-button {
+list-style-image: url("./icons/go-next-skip.svg") !important;
+}
+
+#PanelUI-menu-button {
+list-style-image: url("./icons/application-menu.svg") !important;
+}
+
+#unified-extensions-button {
+display: none !important;
+list-style-image: url("./icons/view-right-new.svg") !important;
+}
+
+/* urlbar icons */
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon, #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+list-style-image: url("./icons/lock16.svg") !important;
+}
+
+#urlbar:not(.searchButton) > #urlbar-input-container > #identity-box[pageproxystate="invalid"] #identity-icon {
+list-style-image: url("./icons/edit-find16.svg") !important;
+}
+
+#alltabs-button {
+display: none !important;
+}
+
+
+
+

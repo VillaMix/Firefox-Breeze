@@ -1,0 +1,22 @@
+/* Barra Principal  */
+
+/* mudar a cor da barra principal */
+
+.browser-toolbar {
+    background-color: transparent !important;
+}
+
+#navigator-toolbox {
+border: none !important;
+}
+
+
+#nav-bar {
+margin-right: 0px !important;
+margin-left: 0px !important;
+margin-top: 6px !important;
+padding-left: 6px !important;
+padding-right: 6px !important;
+height: 40px !important;
+border-bottom: 1px solid ThreeDShadow !important;
+}

@@ -1,0 +1,111 @@
+#urlbar-container {
+background: none !important;
+margin:0px !important;
+border-radius: 3px !important;
+}
+
+#urlbar-container:active {
+background: none !important;
+margin:0px !important;
+border: none !important;
+border-radius: 3px !important;
+}
+
+
+
+
+
+#urlbar {
+    background: #1b1e20 !important;
+    font-size: 13px !important;
+    border: 1px solid ThreeDShadow !important;
+    margin-inline: 0px !important;
+    margin-top: -5px !important;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+    border-radius: 3px !important;
+}
+
+
+
+#urlbar:hover {
+font-size: 13px !important;
+background: #1b1e20 !important;
+border: 1px solid AccentColor !important;
+margin-inline: 0px !important;
+margin-top: -5px !important;
+margin-bottom: 0px !important;
+padding: 0px !important;
+border-radius: 3px !important;
+}
+
+#urlbar[focused="true"] {
+font-size: 13px !important;
+background: #1b1e20 !important;
+border: 1px solid AccentColor !important;
+margin-inline: 0px !important;
+margin-top: -5px !important;
+margin-bottom: 0px !important;
+padding: 0px !important;
+border-radius: 3px !important;
+}
+
+
+
+
+
+
+
+#urlbar-background,
+#searchbar {
+margin: 0px !important;
+border: 0px !important;
+border-radius: 3px !important;
+background: none !important;
+}
+
+
+
+
+#urlbar[focused="true"]:not([suppress-focus-border]) > #urlbar-background,
+#searchbar:focus-within {
+outline: none !important;
+}
+
+
+
+
+
+
+
+.urlbar-page-action {
+    display: none !important;
+}
+
+
+@media not (prefers-contrast) {
+    :root:not([lwtheme]) {
+
+        --toolbar-field-border-color: transparent !important;
+        --toolbar-field-background-color: transparent !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

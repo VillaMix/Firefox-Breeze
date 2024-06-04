@@ -1,0 +1,222 @@
+
+
+
+
+.tab-content {
+    height: 22px !important;
+    padding: 0 22px !important;
+}
+
+.tab-background {
+    height: 20px !important;
+    border-radius: 0px !important;
+    margin-inline: -2px !important;
+    background: #222529 !important;
+    margin-block: -5px !important;
+    border-bottom: 1px solid ThreeDShadow !important;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .tab-loading-burst {
+    display: none !important;
+    }
+}
+
+
+
+
+
+tab:where([visuallyselected]) {
+    appearance: none !important;
+    font-size: 13px !important;
+    margin-top: 0px !important;
+    padding-top: 5px !important;
+    margin-bottom: 0px !important;
+    border-top: 3px solid AccentColor !important;
+    border-radius: 3px !important;
+}
+
+
+
+tab {
+    font-size: 13px !important;
+    appearance: none !important;
+    margin-top: 0px !important;
+    padding: 30px 4px;
+    border-bottom: 1px solid !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAIRAR POR CIMA DA ABA */
+
+#TabsToolbar #firefox-view-button:hover:not([open]) > .toolbarbutton-icon,
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected], [multiselected]) {
+    background: color-mix(in srgb, AccentColor 30%, transparent) !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) {
+box-shadow: none !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+.tab-background:is([selected], [multiselected]) {
+    background-color: #292E32 !important;
+    border-inline: 1px solid ThreeDShadow !important;
+}
+
+
+
+
+ThreeDShadow
+
+
+
+
+/* remove "playing in tabs" */
+.tab-icon-sound-label {
+    display: none !important;
+}
+
+.tab-icon-image {
+    display: none !important;
+}
+
+.tab-icon-overlay {
+    &:not([crashed]) {
+        &:is([soundplaying], [muted], [activemedia-blocked]) {
+            display: none !important;
+        }
+    }
+}
+
+
+.tab-icon-sound-label {
+    display: none !important;
+}
+
+
+.tab-throbber, .tab-icon-pending, .tab-icon-image, .tab-sharing-icon-overlay, .tab-icon-overlay {
+    &:not([pinned]) {
+        display: none !important;
+    }
+}
+
+
+
+
+/* TEXT TABS */
+
+.tab-label {
+    margin-top: 6px !important;
+}
+
+
+.tab-label:is([selected], [multiselected]) {
+    margin-top: -9px !important;
+}
+
+.tab-close-button:is([selected], [multiselected]) {
+    margin-top: -8px !important;
+}
+
+.tab-close-button {
+    margin-top: 8px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+scrollbox {
+    padding-left: 1px !important;
+}
+
+
+
+
+
+
+
+
+.tabbrowser-tab[fadein]:not([pinned]):not([style*="max-width"])
+{
+    max-width: 230px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CLOSE BUTTON */
+
+
+.tab-close-button {
+    list-style-image: url("./icons/window-close16 copia.svg") !important;
+    margin-inline-end: 0px;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0px !important;
+    border-radius: 0 !important;
+
+}
+
+.tab-close-button:hover {
+    background: none !important;
+    list-style-image: url("./icons/window-close16.svg") !important;
+    margin-inline-end: 0px;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0px !important;
+    border-radius: 0 !important;
+
+}
+
+.tab-close-button:active {
+    background: none !important;
+    list-style-image: url("./icons/window-close16 ACTIVE copia.svg") !important;
+    margin-inline-end: 0px;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0px !important;
+    border-radius: 0 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+

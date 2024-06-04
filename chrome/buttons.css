@@ -1,0 +1,141 @@
+:root {
+    --accentcolor-main: AccentColor !important;
+}
+
+
+
+
+nav-bar-customization-target > :is(toolbarbutton, toolbaritem):first-child, #nav-bar-customization-target > toolbarpaletteitem:first-child > :is(toolbarbutton, toolbaritem) {
+    padding-inline-start: 0px !important;
+}
+
+#PanelUI-menu-button {
+padding-inline-end: 0px !important;
+}
+
+
+
+toolbar .toolbarbutton-1 {
+    margin: 1px !important;
+    height: 32px !important;
+    width: 32px !important;
+    border: 0px solid AccentColor !important;
+    border-radius: 3px !important;
+    padding: 0 !important;
+}
+
+
+toolbar .toolbarbutton-1:hover {
+    margin: 1px !important;
+    height: 32px !important;
+    width: 32px !important;
+    border: 1px solid AccentColor !important;
+    border-radius: 3px !important;
+    padding: 0 !important;
+}
+
+toolbar .toolbarbutton-1:active {
+    margin: 1px !important;
+    height: 32px !important;
+    width: 32px !important;
+    border: 1px solid AccentColor !important;
+    border-radius: 3px !important;
+    padding: 0 !important;
+    background: color-mix(in srgb, var(--accentcolor-main) 32.76%, transparent) !important;
+
+}
+
+toolbar .toolbarbutton-1:enabled {
+    margin: 1px !important;
+    height: 32px !important;
+    width: 32px !important;
+    border: 1px solid AccentColor !important;
+    border-radius: 3px !important;
+    padding: 0 !important;
+}
+
+
+
+
+.toolbarbutton-1 {
+    :root:not([customizing]) &[disabled] {
+        opacity: 0.2 !important;
+        border: none !important;
+        background: transparent !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* icones do barra principal */
+
+toolbar .toolbarbutton-1 {
+    & > .toolbarbutton-icon {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}
+
+toolbar .toolbarbutton-1 {
+    & > .toolbarbutton-icon, & > .toolbarbutton-text, & > .toolbarbutton-badge-stack {
+        padding: 0px !important;
+    }
+}
+
+.toolbarbutton-1 {
+    & > .toolbarbutton-icon, & > .toolbarbutton-badge-stack > .toolbarbutton-icon {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+.identity-box-button {
+    padding-inline: 4px !important;
+    background: none !important;
+}
+
+.identity-box-button:hover {
+    padding-inline: 4px !important;
+    background: none !important;
+}
+
+toolbar .toolbarbutton-1 {
+    & > .toolbarbutton-icon, & > .toolbarbutton-text, & > .toolbarbutton-badge-stack {
+        background-color: transparent !important;
+    }
+}
+
+
+
+
+
+
+.toolbarbutton-1 {
+    & > .toolbarbutton-icon, & > .toolbarbutton-badge-stack:hover > .toolbarbutton-icon:hover {
+        background: transparent !important;
+    }
+}
+
+/* disable icons urlbar */
+
+#tracking-protection-icon-container {
+display: none !important;
+}
+
+#identity-permission-box[open="true"], #identity-permission-box[hasPermissions], #identity-permission-box[hasSharingIcon] {
+display: none !important;
+}

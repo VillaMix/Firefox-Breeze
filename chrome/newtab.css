@@ -1,0 +1,10 @@
+/* about:newtab */
+
+@-moz-document url("about:newtab"), url("about:home") {
+    body {
+        --newtab-background-color: #1b1e20 !important;
+        --newtab-background-color-secondary: -moz-headerbar !important;
+        --newtab-primary-action-background: transparent !important;
+    }
+}
+
